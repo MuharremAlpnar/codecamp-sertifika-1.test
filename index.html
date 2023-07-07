@@ -7,62 +7,97 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div>
-    <h1 id="title">title</h1>
-    <p id="description">description</p>
+  <div id="ana-govde">
+    <div id="baslik-tanim">
+      <h1 id="title">Lorem, ipsum dolor.</h1>
+      <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius provident culpa voluptas laboriosam?</p>
+    </div>
+
+    <div>
+      <form action="#" id="survey-form">
+        <div id="ana-bilgiler">
+          <div>
+            <label for="" id="name-label">Ad, Soyad:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          <div>
+            <label for="" id="email-label">Email Adresi</label>
+            <input type="email" id="email" placeholder="Enter your Email" required>
+          </div>
+          <div>
+            <label for="" id="number-label">Yaş:</label>
+            <input type="number" id="number" min="10" max="99" placeholder="Age">
+          </div>
+          <div>
+            <div>
+              Lorem.:
+              <select name="" id="dropdown">
+                <option value="">Lorem.</option>
+                <option value="">Lorem.</option>
+                <option value="">Lorem.</option>
+                <option value="">Lorem.</option>
+                <option value="">Lorem.</option>
+              </select>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div id="siklar">
+          
+          <div class="secim">
+            <fieldset>
+              <legend>Lorem.</legend>
+              <label for="" class="sik">sdf
+                <input type="radio" name="ayni" value="sdf">
+              </label>
+              <label class="sik" for="">jhh
+                <input type="radio" name="ayni" value="jhh">
+              </label>
+              <label class="sik" for="">işlk
+                <input type="radio" checked name="ayni" value="işlk">
+              </label>
+              
+            </fieldset>
+            
+          </div>
+          <div class="secim">
+            <fieldset>
+              <legend>Lorem.</legend>
+              <label class="sik" for="">asdffgh:
+                <input type="checkbox" value="asdffgh">
+              </label>
+              
+              <label class="sik" for="">asdffgh:
+                <input type="checkbox" value="asdffgh">
+              </label>
+              
+              <label class="sik" for="">asdffgh:
+                <input type="checkbox" value="asdffgh">
+              </label>
+              
+              <label class="sik" for="">hiçbiri:
+                <input type="checkbox" checked value="hiçbiri">
+              </label>
+            </fieldset>
+            
+            
+          </div>
+          <div style="margin-top: 20px;">
+            <p style="text-align: left;margin-left: 100px;">yorum ve görüş:</p>
+            <textarea name="" id="" cols="49" rows="10"></textarea>
+          </div>
+          </div>
+          <div id="button-div">
+            <button id="submit">Submit</button>
+          </div>
+        
+      </form>
+    </div>
   </div>
+
   
-  <div>
-    <form action="#" id="survey-form">
-      <div>
-        <div>
-          <label for="" id="name-label">
-            <input type="text" id="name" placeholder="Enter your name
-            ">
-          </label>
-        </div>
-        <div>
-          <label for="" id="email-label">
-            <input type="email" id="email" placeholder="Enter your Email
-            ">
-          </label>
-        </div>
-        <div>
-          <label for="" id="number-label">
-            <input type="number" id="number" min="10" max="99" placeholder="Age
-            ">
-          </label>
-        </div>
-      </div>
-      
-      <div>
-        <div>
-          <select name="" id="dropdown">
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-          </select>
-        </div>
-        <div>
-          <input type="radio">
-          <input type="radio">
-          <input type="radio">
-        </div>
-        <div>
-          <input type="checkbox">
-          <input type="checkbox">
-          <input type="checkbox">
-          <input type="checkbox">
-        </div>
-        <div>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </div>
-        </div>
-      <button id="submit">Submit</button>
-    </form>
-  </div>
+  
   
 </body>
 </html>

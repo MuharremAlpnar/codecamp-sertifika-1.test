@@ -1,3 +1,81 @@
 div{
   text-align: center;
 }
+body{
+  background-color: #F5EFE7;
+  
+}
+#ana-govde{
+  background-color:#D8C4B6 ;
+  margin: 60px auto;
+  width: 600px;
+  padding: 10px;
+  
+}
+#ana-govde *{
+  margin: 0;
+}
+#baslik-tanim{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#ana-bilgiler{
+  margin-bottom: 15px;
+}
+#ana-bilgiler div{
+  text-align: left;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+#name{
+  text-align: center;
+  margin-left: 15px; 
+}
+#email{
+  text-align: center;
+  margin-left: 4.5px; 
+}
+#number{
+  text-align: center;
+  margin-left: 61px; 
+}
+#dropdown{
+  margin-left: 37px;
+}
+#siklar div{
+  margin-bottom: 10px;
+
+}
+.secim{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.sik{
+  display: block;
+}
+legend{
+  text-align: left;
+}
+button {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+button:active {
+  opacity: 0.7;
+}
