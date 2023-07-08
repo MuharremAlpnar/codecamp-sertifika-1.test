@@ -46,5 +46,15 @@
 * son olarak button div içine alındı, birden fazla buton olması halında **submit butonunun karıştırılmaması** için type attributesine submit değeri verildi 
 ---
 ## CSS SAYFSI DÜZENİ ##  
+* google font import edilmiş
+* :**root** selector ile **html elementini temsil eder** bu selector içine sayfada kullanılacak olan **renkler değişkenlerle temsil** edilmiş. aynı değeri birden fazla stil tanımında tekrar etmek yerine bu değişkenler üzerinden erişilebilir. color: **var(--color-darkblue)**; gibi var fonksyonunun içinde bu değişkenler kullanılabilir.
+* **rem** birimi **varsayılanın oranı** olarak ifade edilebilir. ex(varsayılan font-size=16px ise 1rem 16px, 2rem 32px'i ifade eder)
+* line-height: 1.4; birimin olmaması bunu bir **unitless** olduğunu gösteriri. unitless kullanılan özelliğe göre ifade ettiği anlam değişebilir. burada kastedilen anlam, satırlar arası mesafe yazı fontunun 1.4 katı olmasıdır.
+* @media sorgusu farklı ekranlarda stillerin farklı şekillerde ayarlanmasına olanak sağlar.
+* şu ana kadar box-shadow özelliği kullanarak kutulara veya butonlara gölge ekledik. buna benzer bir özellik ise **text-shadowdur** bu özellik metinlere gölge eklememizi sağlar.
+* css'de 154. satırda ease-in-out özelliği bir **geçiş eğrisidir**. bir özelliğin bir durumdan başka bir duruma geçerkenki özelliği(animasyonunu) tanımlar
+* outline : focus psuedo classında kullanılan özelliklerden biridir. tarayızınin **varsayılan vurgusunu** temsil eder. genellikle border özelliği gibi bir çerçeve oluştursada , focus psuedo classı ile kullanıldığında outline:0; dediğimizde. bir inputa odaklandığımız zaman **varsayılan focus özelliklerini devre dışı** bıralır.
+* **resize**:textareanin boyutunun kullanıcı tarafından ayarlanıp ayarlanmamasını sağladığımız bir özelliktir. resize:vertical; kullanıcının textareayı sadece dikey olarak büyütüp küçülteceğini bildirir
+* herhangi bir css özelliğinde **inherit** ifadesi: bazı özellikler kalıtım yoluyla çocuklara kalıtılmaz. kalıtılmayan özelliklerin kalıtımını sağlamak için bu özellikler inherit edilir css:183
 
 
